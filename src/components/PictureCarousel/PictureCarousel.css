@@ -1,0 +1,19 @@
+.carousel-container {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    width: 500px;
+}
+
+.carousel-item {
+    height: 500px;
+    min-width: min-content;
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    background-color: transparent !important;
+}
